@@ -18,13 +18,13 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![]<img src="design/print.jpg">
+<img src="design/print.jpg">
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://allesonsales.github.io/recipe-page-main/)
+- [Live Site URL](https://allesonsales.github.io/recipe-page-main/)
 
 
 ### Built with
