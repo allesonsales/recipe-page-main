@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    background-color: hsl(30, 83%, 74%);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    margin: 25px;
+}
+
+main {
+    background-color: white;
+    border-radius: 30px;
+    max-width: 750px;
+    margin: 25px;
+}
+
+hr {
+    border-color: hsla(14, 45%, 36%, 0.3);
+    border-bottom: 25px;
+}
+
+article {
+    padding: 3rem;
+}
+
+
+.recipe {
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    color: hsl(30, 10%, 34%);
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    font-size: 1.5rem;
+    color: hsl(14, 45%, 36%);
+}
+
+h1+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+
+img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+h2 {
+    color: hsla(14, 45%, 36%, );
+}
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    padding: 1.5rem;
+}
+
+.preparation h2 {
+    font-family: "Outfit", sans-serif;
+    font-size: 1.5rem;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 1rem;
+
+}
+
+.preparation ul {
+    line-height: 35px;
+    font-weight: 400;
+    padding: 0 25px;
+}
+
+.preparation li {
+    padding: 0 25px;
+}
+
+.ingredient {
+    margin-top: 1.5rem;
+}
+
+.ingredient ul {
+    padding: 1.5rem;
+    line-height: 35px;
+}
+
+.instruction {
+    margin-top: 1.5rem;
+
+}
+
+.instruction ol {
+    padding: 0rem 1.5rem;
+}
+
+.instruction li::marker {
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
+
+.instruction ol li:nth-child(1) {
+    margin-top: 2rem;
+}
+
+.instruction li {
+    margin: 1.5rem 0;
+}
+
+.nutrition {
+    margin-top: 1.5rem;
+}
+
+.nutrition h2 {
+    margin: 1.5rem 0;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+    line-height: 2.0rem;
+    border-collapse: collapse;
+
+}
+
+td {
+    padding: 10px 30px;
+}
+
+
+tr {
+    border-bottom: solid 1px;
+    border-color: hsla(14, 45%, 36%, 0.3);
+    border-width: 100%;
+    margin: 100px;
+}
+
+tr:last-child {
+    border: none;
+}
+
+table b {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 1440px) and (orientation: portrait) {
+    body {
+        background-color: white;
+        margin: 0;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    article {
+        padding: 1rem;
+    }
+
+    article img {
+        padding: 0;
+    }
+
+    .attribution {
+        font-size: 8px;
+    }
+
+    .attribution a {
+        font-size: 8px;
+    }
+}
